@@ -1,5 +1,8 @@
 # ironSource 通过聚合方式集成 AdFly
 
+## 其他语言
+* en [English](english.md)
+
 ### 支持的广告
 1. 激励视频
 2. 插屏广告
