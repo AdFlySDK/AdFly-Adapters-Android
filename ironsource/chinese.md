@@ -62,3 +62,22 @@ dependencies {
 }
 ```
 
+## 检查是否接入成功
+
+正常接入成功后，如果请求激励视频在 logcat 中过滤 `AdFly` 后会有以下的日志输出：
+
+```
+D/AdFlyIronSourceAdapter: initialize, configuration: {instanceName=Default, revByRate=true, customNetworkAdapterName=AdFlyCustomRewardedVideo, instanceType=1, customNetworkPackage=com.ironsource.adapters.custom.adfly, rateReporting=1, userId=null, isDefault=true, deleted=0, isCustomNetwork=true, maxAdsPerSession=99, customNetwork=AdFly, unitId=1867, appKey=xx, appSecret=xx}
+I/AdFly: AdFly SDK
+    ======Build Info======
+    Version: 0.11.5
+    Time: 2022-03-25 11:14:16
+    Commit: 80d9df8
+    ======Device Info======
+    GAID: xx
+    ======User Info======
+    UserId: xx
+D/AdFlyIronSourceAdapter: onInitializationFinished
+D/AdFlyRewardedVideo: loadAd: 1867
+D/AdFlyRewardedVideo: onRewardedAdLoadSuccess
+```
