@@ -98,7 +98,7 @@ dependencies {
 正常接入成功后，如果请求激励视频在 logcat 中过滤 `AdFly` 后会有以下的日志输出：
 
 ```
-D/MaxAdapter: initialize, params: Bundle[{secret=c67ac6da4e135210a1f8b1b0f5f03ff3, key=ChipMaster}]
+D/MaxAdapter: initialize, params: Bundle[{secret=xx, key=xx}]
     serverParams: Bundle[{amount=0, app_id=, network_name=AdFly, is_muted=false, adapter_class=com.adfly.mediation.max.AdFlyMediationAdapter, custom_parameters=Bundle[{secret=xx, key=xx}], currency=}]
     localParams: {}
 D/AdFlyMaxAdapter: loadRewardedAd: 1867

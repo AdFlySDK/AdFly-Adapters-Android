@@ -100,7 +100,7 @@ Add `AdFly/Editor/Dependencies.xml` in folder `Assets/MaxSdk/Mediation`：
 After integrate is successful，If request Reward ads, filter  `AdFly` in logcat will have logs like these:
 
 ```
-D/MaxAdapter: initialize, params: Bundle[{secret=c67ac6da4e135210a1f8b1b0f5f03ff3, key=ChipMaster}]
+D/MaxAdapter: initialize, params: Bundle[{secret=xx, key=xx}]
     serverParams: Bundle[{amount=0, app_id=, network_name=AdFly, is_muted=false, adapter_class=com.adfly.mediation.max.AdFlyMediationAdapter, custom_parameters=Bundle[{secret=xx, key=xx}], currency=}]
     localParams: {}
 D/AdFlyMaxAdapter: loadRewardedAd: 1867
