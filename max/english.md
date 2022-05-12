@@ -83,7 +83,7 @@ Add `AdFly/Editor/Dependencies.xml` in folder `Assets/MaxSdk/Mediation`：
 <?xml version="1.0" encoding="utf-8"?>
 <dependencies>
     <androidPackages>
-        <androidPackage spec="pub.adfly:adapter-max:0.11.5.0">
+        <androidPackage spec="pub.adfly:adapter-max:0.11.8.0">
             <repositories>
                 <repository>https://repo1.maven.org/maven2/</repository>
             </repositories>
