@@ -62,6 +62,29 @@ dependencies {
 }
 ```
 
+## Integrate in Unity
+
+### 1. Integrate ironSource in Unity
+Reference: [ironSource Integration](https://developers.is.com/ironsource-mobile/unity/unity-plugin/)
+
+### 2. Add dependencies
+Add `IronSourceSDKDependencies.xml` in folder `Assets/IronSource/Editor`：
+
+```xml
+<dependencies>
+    <unityversion>4.3.37.2</unityversion>
+  <androidPackages>
+    <androidPackage spec="pub.adfly:adapter-ironsource:0.11.8.0">
+      <repositories>
+        <repository>https://repo1.maven.org/maven2/</repository>
+      </repositories>
+    </androidPackage>
+  </androidPackages>
+</dependencies>
+```
+
+![](4.png)
+
 ## Check integrate successful
 
 After integrate is successful，If request Reward ads, filter  `AdFly` in logcat will have logs like these:

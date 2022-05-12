@@ -62,6 +62,29 @@ dependencies {
 }
 ```
 
+## Unity集成配置
+
+### 1. 在Unity中集成ironSource
+参考 [ironSource官方文档](https://developers.is.com/ironsource-mobile/unity/unity-plugin/)
+
+### 2. 添加AdFly依赖
+在 `Assets/IronSource/Editor` 目录下添加文件：`IronSourceSDKDependencies.xml`
+
+```xml
+<dependencies>
+    <unityversion>4.3.37.2</unityversion>
+  <androidPackages>
+    <androidPackage spec="pub.adfly:adapter-ironsource:0.11.8.0">
+      <repositories>
+        <repository>https://repo1.maven.org/maven2/</repository>
+      </repositories>
+    </androidPackage>
+  </androidPackages>
+</dependencies>
+```
+
+![](4.png)
+
 ## 检查是否接入成功
 
 正常接入成功后，如果请求激励视频在 logcat 中过滤 `AdFly` 后会有以下的日志输出：
