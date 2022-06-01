@@ -58,7 +58,7 @@ allprojects {
 dependencies {
     // ... other project dependencies
 
-    implementation 'pub.adfly:adapter-ironsource:0.11.+'
+    implementation 'pub.adfly:adapter-ironsource:0.14.+'
 }
 ```
 
@@ -74,7 +74,7 @@ dependencies {
 <dependencies>
     <unityversion>4.3.37.2</unityversion>
   <androidPackages>
-    <androidPackage spec="pub.adfly:adapter-ironsource:0.11.8.0">
+    <androidPackage spec="pub.adfly:adapter-ironsource:0.14.2.0">
       <repositories>
         <repository>https://repo1.maven.org/maven2/</repository>
       </repositories>

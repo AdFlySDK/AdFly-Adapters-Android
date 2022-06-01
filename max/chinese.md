@@ -66,7 +66,7 @@ allprojects {
 dependencies {
     // ... other project dependencies
 
-    implementation 'pub.adfly:adapter-max:0.11.+'
+    implementation 'pub.adfly:adapter-max:0.14.+'
 }
 ```
 
@@ -82,7 +82,7 @@ dependencies {
 <?xml version="1.0" encoding="utf-8"?>
 <dependencies>
     <androidPackages>
-        <androidPackage spec="pub.adfly:adapter-max:0.11.8.0">
+        <androidPackage spec="pub.adfly:adapter-max:0.14.2.0">
             <repositories>
                 <repository>https://repo1.maven.org/maven2/</repository>
             </repositories>
