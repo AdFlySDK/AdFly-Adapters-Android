@@ -82,7 +82,7 @@ dependencies {
 <?xml version="1.0" encoding="utf-8"?>
 <dependencies>
     <androidPackages>
-        <androidPackage spec="pub.adfly:adapter-max:0.14.3.0">
+        <androidPackage spec="pub.adfly:adapter-max:0.14.5.2">
             <repositories>
                 <repository>https://repo1.maven.org/maven2/</repository>
             </repositories>
