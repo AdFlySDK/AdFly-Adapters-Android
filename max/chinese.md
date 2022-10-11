@@ -8,6 +8,7 @@
 2. 原生广告
 3. 插屏广告
 4. Banner广告
+5. MRECs
 
 ### 支持的平台
 1. Android
@@ -66,7 +67,7 @@ allprojects {
 dependencies {
     // ... other project dependencies
 
-    implementation 'pub.adfly:adapter-max:0.14.+'
+    implementation 'pub.adfly:adapter-max:0.20.+'
 }
 ```
 
@@ -82,7 +83,7 @@ dependencies {
 <?xml version="1.0" encoding="utf-8"?>
 <dependencies>
     <androidPackages>
-        <androidPackage spec="pub.adfly:adapter-max:0.14.5.2">
+        <androidPackage spec="pub.adfly:adapter-max:0.20.0.0">
             <repositories>
                 <repository>https://repo1.maven.org/maven2/</repository>
             </repositories>
